@@ -1,0 +1,22 @@
+.plansscreen__plan {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	opacity: 0.6;
+}
+.plansscreen__plan:hover {
+	opacity: 1;
+	color: rgb(213, 138, 243);
+
+	border: none;
+}
+.planscreen__button {
+	border: none;
+	border-radius: 3px;
+}
+.planscreen__button:hover {
+	color: white;
+	background-color: tomato;
+	border: none;
+	cursor: pointer;
+}
